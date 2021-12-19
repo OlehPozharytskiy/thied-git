@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  background-color: azure;
+  &.lock {
+    overflow: hidden;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+  color: silver;
+}
+
+a {
+  text-decoration: none;
+  color: silver;
+  transition: all 0.5s cubic-bezier(0.73, 0.45, 0.15, 0.99);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  transition: all 0.5s cubic-bezier(0.73, 0.45, 0.15, 0.99);
+}
+
+.spinner {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  &-item {
+    font-size: 100px;
+    color: blue;
+  }
+}

@@ -1,0 +1,53 @@
+// body {
+//   background-color: azure;
+// }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tittle {
+  text-align: center;
+  color: black;
+  font-size: 3rem;
+  padding: 20px;
+}
+
+.gallery {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 20px 10px;
+  align-items: center;
+}
+
+.gallery__item {
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 5px;
+}
+
+.gallery__item img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .gallery__item {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .gallery__item {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}

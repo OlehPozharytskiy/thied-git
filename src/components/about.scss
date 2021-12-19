@@ -1,0 +1,35 @@
+.about {
+  background-color: azure;
+  padding-top: 80px;
+  @media screen and (max-width: 820px) {
+    padding: 0;
+  }
+  &__wrapper {
+    text-align: center;
+    margin: 0px auto;
+    padding: 70px 10px;
+  }
+  &__tittle {
+    color: black;
+  }
+  &__text {
+    color: black;
+    max-width: 720px;
+    margin: 40px auto;
+  }
+  &__video {
+    padding-top: 56.25%;
+    position: relative;
+    max-width: 1480px;
+    max-height: 800px;
+    margin: 0 auto;
+
+    iframe {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+    }
+  }
+}
