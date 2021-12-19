@@ -13,21 +13,21 @@ function Cards() {
               src="images/image-1.jpg"
               text="Open  AI is the future. Let us exlore how it is?"
               label="Sep 26, 2021"
-              path="/page/project"
+              path="./gallery"
               alt="sience1"
             />
             <CardItem
               src="images/image-2.png"
               text="Open  AI is the future. Let us exlore how it is?"
               label="Sep 26, 2021"
-              path="/page/project"
+              path="./gallery"
               alt="sience2"
             />
             <CardItem
               src="images/image-3.png"
               text="Open  AI is the future. Let us exlore how it is?"
               label="Sep 26, 2021"
-              path="/page/project"
+              path="./gallery"
               alt="sience3"
             />
           </ul>
@@ -36,14 +36,14 @@ function Cards() {
               src="images/image-4.png"
               text="Open  AI is the future. Let us exlore how it is?"
               label="Sep 26, 2021"
-              path="/page/project"
+              path="./gallery"
               alt="sience4"
             />
             <CardItem
               src="images/image-2.png"
               text="Open  AI is the future. Let us exlore how it is?"
               label="Sep 26, 2021"
-              path="/page/project"
+              path="./gallery"
               alt="sience5"
             />
           </ul>
@@ -52,21 +52,21 @@ function Cards() {
               src="images/image-5.png"
               text="Open  AI is the future. Let us exlore how it is?"
               label="Sep 26, 2021"
-              path="/page/project"
+              path="./gallery"
               alt="sience6"
             />
             <CardItem
               src="images/image-1.jpg"
               text="Open  AI is the future. Let us exlore how it is?"
               label="Sep 26, 2021"
-              path="/page/project"
+              path="./gallery"
               alt="sience7"
             />
             <CardItem
               src="images/image-2.png"
               text="Open  AI is the future. Let us exlore how it is?"
               label="Sep 26, 2021"
-              path="/page/project"
+              path="./gallery"
               alt="sience8"
             />
           </ul>
