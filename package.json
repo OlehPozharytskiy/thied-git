@@ -50,5 +50,8 @@
     "exam"
   ],
   "author": "pozharytskiyOleh <Pozhar.Oleh25@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
+  }
 }
